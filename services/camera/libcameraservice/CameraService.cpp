@@ -68,7 +68,7 @@ static int getCallingUid() {
     return IPCThreadState::self()->getCallingUid();
 }
 
-#if defined(BOARD_HAVE_HTC_FFC)
+/*#if defined(BOARD_HAVE_HTC_FFC)
 #define HTC_SWITCH_CAMERA_FILE_PATH "/sys/android_camera2/htcwc"
 static void htcCameraSwitch(int cameraId)
 {
@@ -84,7 +84,7 @@ static void htcCameraSwitch(int cameraId)
     }
 }
 #endif
-
+*/
 // ----------------------------------------------------------------------------
 
 #if defined(BOARD_HAVE_HTC_FFC)
